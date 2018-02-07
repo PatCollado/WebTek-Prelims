@@ -1,0 +1,41 @@
+#header {
+    font-family: "Fjalla One";
+    background-image: url(../images/1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    height: 30%;
+    width: 100%;
+}
+
+body {
+    background-color: ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: slategray;
+}
+
+.active {
+    background-color: green;
+}
