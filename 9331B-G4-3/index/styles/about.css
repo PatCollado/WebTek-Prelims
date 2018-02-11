@@ -1,4 +1,9 @@
 body {
+	background-color: #D7DBDD;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
@@ -10,6 +15,13 @@ body {
 }
 
 #header {
+	background-image: url(../images/1.jpg);
+    height: 80%;
+    width: 100%
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-size: 30px;
+	text-align: center;
 	background-image: url(../images/HEADER.png);
     height: 80%;
     width: 100%
@@ -24,7 +36,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #74898b;
+    background-color: #34495E;
 }
 
 li {
@@ -55,4 +67,18 @@ li a:hover {
   background-color:  #3a4545;
   
   cursor: default;
+}
+
+#about {
+	padding: 10px;
+	background-color: #74898b;
+	border-radius: 5px;
+}
+
+
+#interview {
+	padding: 10px;
+	background-color: #74898b;
+}
+
 }

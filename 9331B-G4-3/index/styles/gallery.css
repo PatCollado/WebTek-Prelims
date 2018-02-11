@@ -1,4 +1,9 @@
 body {
+	background-color: #D7DBDD;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
@@ -6,10 +11,16 @@ body {
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-	
 }
 
 #header {
+	background-image: url(../images/1.jpg);
+    height: 80%;
+    width: 100%
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-size: 30px;
+	text-align: center;
 	background-image: url(../images/HEADER.png);
     height: 80%;
     width: 100%
@@ -24,7 +35,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #74898b;
+    background-color: #34495E;
 }
 
 li {
@@ -55,4 +66,112 @@ li a:hover {
   background-color:  #3a4545;
   
   cursor: default;
+}
+
+#image1 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image2 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image3 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image4 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image5 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image6 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image7 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image8 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image9 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image10 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image11 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#image13 {
+	padding: 10px;
+	position: center;
+	background-color: #74898b;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 3px;
 }

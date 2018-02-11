@@ -1,4 +1,9 @@
 body {
+	background-color: #D7DBDD;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
@@ -6,10 +11,15 @@ body {
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-	
-}
 
 #header {
+	background-image: url(../images/1.jpg);
+    height: 80%;
+    width: 100%
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-size: 30px;
+	text-align: center;
 	background-image: url(../images/HEADER.png);
     height: 80%;
     width: 100%
@@ -24,7 +34,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #74898b;
+    background-color: #34495E;
 }
 
 li {
@@ -55,4 +65,80 @@ li a:hover {
   background-color:  #3a4545;
   
   cursor: default;
+}
+
+
+#contact {
+	background-color: #34495E;
+	background-position: center;
+	font-size: 18px;
+	height: 30%;
+	width: 100%;
+}
+
+img {
+    width: inherit;
+}
+
+#mitch {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+#patrick {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+#jelly {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+#nikki {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+#lingling {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+#stefanie {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+#devPar {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
