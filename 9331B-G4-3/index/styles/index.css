@@ -60,7 +60,7 @@ li a:hover {
 
 #par1 {
 	padding: 10px;
-	font-size: 25px;
+	font-size: 18px;
 	border-radius: 3px;
 	text-align: left;
 }
@@ -68,7 +68,7 @@ li a:hover {
 
 #par2 {
 	padding: 10px;
-	font-size: 20px;
+	font-size: 14px;
 	border-radius: 3px;
 	text-align: center;
 }
@@ -76,19 +76,19 @@ li a:hover {
 
 #par3 {
 	padding: 10px;
-	font-size: 25px;
+	font-size: 18px;
 	border-radius: 3px;
 }
 
 #par4 {
 	padding: 10px;
-	font-size: 20px;
+	font-size: 14px;
 	border-radius: 3px;
 	text-align: center;
 }
 
 #par5 {
 	padding: 10px;
-	font-size: 25px;
+	font-size: 18px;
 	border-radius: 3px;
 }
