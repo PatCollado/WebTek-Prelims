@@ -10,12 +10,14 @@ body {
 }
 
 #header {
-	background-image: url(../images/HEADER.png);
-    height: 80%;
-    width: 100%
+	text-align: center;
+    background-image: url(../images/HEADER.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    max-height: 1000px;
-	font-size: 0px;
+    
+    height: 60%;
+    width: 100%;
+    font-size: 0;
 }
 
 

@@ -1,9 +1,4 @@
 body {
-	background-color: #D7DBDD;
-	margin-left: auto;
-	margin-right: auto;
-	width: 95%;
-	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
@@ -14,19 +9,14 @@ body {
 }
 
 #header {
-	background-image: url(../images/1.jpg);
-    height: 80%;
-    width: 100%
-    background-repeat: no-repeat;
-    background-size: cover;
-	font-size: 30px;
 	text-align: center;
-	background-image: url(../images/HEADER.png);
-    height: 80%;
-    width: 100%
-    background-repeat: no-repeat;
+    background-image: url(../images/HEADER.png);
     background-size: 100% 100%;
-	font-size: 0px;
+    background-repeat: no-repeat;
+    
+    height: 60%;
+    width: 100%;
+    font-size: 0;
 }
 
 
@@ -71,7 +61,6 @@ li a:hover {
 #image1 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -80,7 +69,6 @@ li a:hover {
 #image2 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -89,7 +77,6 @@ li a:hover {
 #image3 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -98,7 +85,6 @@ li a:hover {
 #image4 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -107,7 +93,6 @@ li a:hover {
 #image5 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -116,7 +101,6 @@ li a:hover {
 #image6 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -125,7 +109,6 @@ li a:hover {
 #image7 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -134,7 +117,6 @@ li a:hover {
 #image8 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -143,7 +125,6 @@ li a:hover {
 #image9 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -152,7 +133,6 @@ li a:hover {
 #image10 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -161,7 +141,6 @@ li a:hover {
 #image11 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
@@ -170,7 +149,6 @@ li a:hover {
 #image13 {
 	padding: 10px;
 	position: center;
-	background-color: #74898b;
 	font-size: 15px;
 	text-align: center;
 	border-radius: 3px;
