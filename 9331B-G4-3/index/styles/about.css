@@ -58,8 +58,20 @@ li a:hover {
   cursor: default;
 }
 
+h2{
+    font-family: helvetica;
+    font-size: 29px;
+}
+h3{
+    font-family: helvetica;
+    font-size: 29px;
+}
+
 #about {
 	padding: 10px;
+    font-family: verdana;
+    font-size: 16px;
+
 }
 
 
@@ -83,10 +95,19 @@ li a:hover {
 
 [id='#vision']{
     padding: 10px;
+    font-family: verdana;
+    font-size: 16px;
 }
 
 [id='#mission']{
     padding: 10px;
+    font-family: verdana;
+    font-size: 16px;
+}
+
+#imgPar{
+    font-family: verdana;
+    font-size: 13px;
 }
 
 #imgPar {
@@ -94,6 +115,7 @@ li a:hover {
 }
 
 #core{
+<<<<<<< HEAD
     background-color: #8b5f65;
     width: 100%;
     height: 50%;
@@ -103,4 +125,15 @@ li a:hover {
     background-color: #8b5f65;
     width: 100%;
     height: 50%;
+=======
+    padding: 10px;
+    font-family: verdana;
+    font-size: 16px;
+}
+
+#off{
+    padding: 10px;
+    font-family: verdana;
+    font-size: 16px;
+>>>>>>> 8a649ba294fdc1dc4edb978edd3e066fe1781b3e
 }
