@@ -58,8 +58,20 @@ li a:hover {
   cursor: default;
 }
 
+h2{
+    font-family: helvetica;
+    font-size: 29px;
+}
+h3{
+    font-family: helvetica;
+    font-size: 29px;
+}
+
 #about {
 	padding: 10px;
+    font-family: verdana;
+    font-size: 16px;
+
 }
 
 
@@ -69,16 +81,29 @@ li a:hover {
 
 [id='#vision']{
     padding: 10px;
+    font-family: verdana;
+    font-size: 16px;
 }
 
 [id='#mission']{
     padding: 10px;
+    font-family: verdana;
+    font-size: 16px;
+}
+
+#imgPar{
+    font-family: verdana;
+    font-size: 13px;
 }
 
 #core{
     padding: 10px;
+    font-family: verdana;
+    font-size: 16px;
 }
 
 #off{
     padding: 10px;
+    font-family: verdana;
+    font-size: 16px;
 }
