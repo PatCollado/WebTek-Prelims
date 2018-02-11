@@ -23,7 +23,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #34495E;
+    background-color: #74898b;
 }
 
 li {
@@ -56,43 +56,15 @@ li a:hover {
   cursor: default;
 }
 
-
-#par1 {
+#about {
 	padding: 10px;
-	font-size: 25px;
 	background-color: #74898b;
-	border-radius: 3px;
-	text-align: left;
+	border-radius: 5px;
 }
 
 
-#par2 {
+#interview {
 	padding: 10px;
-	font-size: 20px;
 	background-color: #74898b;
-	border-radius: 3px;
-	text-align: center;
 }
 
-
-#par3 {
-	padding: 10px;
-	font-size: 25px;
-	background-color: #74898b;
-	border-radius: 3px;
-}
-
-#par4 {
-	padding: 10px;
-	font-size: 20px;
-	background-color: #74898b;
-	border-radius: 3px;
-	text-align: center;
-}
-
-#par5 {
-	padding: 10px;
-	font-size: 25px;
-	background-color: #74898b;
-	border-radius: 3px;
-}
