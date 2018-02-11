@@ -69,6 +69,8 @@ img {
     float: left;
     margin: 3px;
     padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
 }
 
 #image2 {
@@ -96,6 +98,8 @@ img {
     float: left;
     margin: 3px;
     padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
 }
 
 #image5 {
@@ -114,6 +118,8 @@ img {
     float: left;
     margin: 3px;
     padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
 }
 
 #image7 {
@@ -123,6 +129,8 @@ img {
     float: left;
     margin: 3px;
     padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
 }
 
 #image8 {
@@ -141,6 +149,8 @@ img {
     float: left;
     margin: 3px;
     padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
 }
 
 #image10 {
@@ -150,6 +160,7 @@ img {
     float: left;
     margin: 3px;
     padding: 5px;
+    
 }
 
 #image11 {
@@ -168,4 +179,6 @@ img {
     float: left;
     margin: 3px;
     padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
 }
