@@ -110,30 +110,18 @@ h3{
     font-size: 13px;
 }
 
-#imgPar {
-    background-color: #8b5f65;
-}
-
 #core{
-<<<<<<< HEAD
     background-color: #8b5f65;
-    width: 100%;
+    width: 94%;
     height: 50%;
 }
 
 #off{
     background-color: #8b5f65;
-    width: 100%;
+    width: 90%;
     height: 50%;
-=======
-    padding: 10px;
+    padding: 20px;
     font-family: verdana;
     font-size: 16px;
 }
 
-#off{
-    padding: 10px;
-    font-family: verdana;
-    font-size: 16px;
->>>>>>> 8a649ba294fdc1dc4edb978edd3e066fe1781b3e
-}
