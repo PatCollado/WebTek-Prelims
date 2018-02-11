@@ -60,14 +60,25 @@ li a:hover {
 
 #about {
 	padding: 10px;
-
-	border-radius: 5px;
 }
 
 
 #interview {
 	padding: 10px;
-
 }
 
+[id='#vision']{
+    padding: 10px;
+}
+
+[id='#mission']{
+    padding: 10px;
+}
+
+#core{
+    padding: 10px;
+}
+
+#off{
+    padding: 10px;
 }
