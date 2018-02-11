@@ -1,0 +1,304 @@
+ article, aside, footer, header, main, nav, section{
+	 display:block;
+ }
+* {margin: 0; padding: 0; border: 0 none;}
+
+body{ 
+	height:100%;
+	width:100%;
+	background-color:#FEFFFF;
+	margin:0px;
+}
+
+.banner{
+	width:100%;
+	height:100%;
+	
+}
+
+nav{
+	opacity:0.7;
+	position:fixed;
+	width:100%;
+	background:#17252A;
+	text-align:center;
+}
+
+nav ul{
+	padding:5px;
+	list-style:none;
+	color:#fff;
+	margin: auto;
+	display:inline-block;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+}
+
+nav ul li{
+	float:left;
+	background:#17252A;
+	width:300px;
+	height:70px;	
+	line-height:70px;
+	text-align:center;
+	font-size:25px;
+	font-variant: small-caps;
+	cursor:pointer;
+	display:inline-block;
+}
+
+nav ul li a:hover{
+	background:#FEFFFF;
+	transition:all 0.80s;
+	color:black;
+	
+}
+
+nav ul li ul li{
+	display:none;
+	padding:5px;
+}
+
+nav ul li:hover ul li{
+	display:block;
+	color:#dddd;
+}
+
+section{
+	margin-top:10px;
+	background-color:#C0B283;
+	height:100%;
+	margin-left:10px;
+	font-family:Andale Mono, monospace;
+	color:#black;
+	padding:10px;
+	margin-right:10px;
+}
+
+main{
+	width:70%;
+	float:left;
+	height:100%;
+	background-color:#17252A;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+aside{
+	background-color:#FEFFFF;
+	height: 100%;
+	width:20%;
+	float:right;
+	padding:20px;
+	margin-top:10px;
+	font-size:40px;
+	font-family:"Courier New", Courier, monospace;
+	font-style: oblique;
+	color:#17252A;
+}
+
+h2{
+	font-size:45px;
+	text-align:center;
+	color:#FEFFFF;
+}
+
+.VisionHeader{
+	font-size:50px;
+	text-align:center;
+	color:#17252A;
+}
+
+.MissionHeader{
+	font-size:50px;
+	text-align:center;
+	color:#17252A;
+}
+
+#ContactHead{
+	color:#FEFFFF;
+	text-align:center;
+}
+
+p{
+	text-indent: 50px;
+}
+
+#PurposeHeading{
+	font-size:40px;
+	color:#17252A;
+}
+
+#OverviewHead{
+	color:#FEFFFF;
+}
+
+#WelcomeSection{
+	height:100%;
+	background:##FEFFFF;
+	color:#ddddd;
+	font-family:Andale Mono, monospace;
+	width:auto;
+	padding:10px 15px;
+}
+
+#OverviewSection{
+	height:100%;
+	background:#C0B283;
+	color:#ddddd;
+	font-family:Andale Mono, monospace;
+	margin-bottom:10px;
+	line-height:30px;
+	margin:10px;
+}
+
+#AboutVision{
+	height:100%;
+	background:#C0B283;
+	color:#ddddd;
+	font-family:Andale Mono, monospace;
+	font-size:25px;
+	margin:10px;
+}
+
+#AboutMission{
+	height:100%;
+	background:#C0B283;
+	color:#ddddd;
+	font-family:Andale Mono, monospace;
+	font-size:25px;
+	margin:10px;
+}
+
+#NewsSection{
+	background-color:#17252A;
+	margin-top:10px;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+.NewsArticle{
+	background-color:#C0B283;
+	margin-top:5px;
+	padding:10px 15px;
+	line-height:30px;
+}
+
+#ContactSection{
+	background-color:#17252A;
+	margin-top:10px;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+#ContactArticle{
+	background-color:#C0B283;
+	margin-top:5px;
+	padding:10px 15px;
+	line-height:30px;
+}
+
+.Gallery{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	position:relative;
+	width:auto;
+	height:150px;
+	padding-bottom:40%;
+	background:#4c4c4c;
+	border:solid 10px #C0B283;
+}
+
+.slide_img{
+	position:absolute;
+	width:100%;
+	height:100%;	
+}
+
+.slide_img img{
+	width:100%;
+	height:100%;
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6{
+	display:none;
+}
+
+.pre, .next{
+	width:10%;
+	height:100%;
+	position:absolute;
+	top:0;
+	background: rgba(88,88,88,.4);
+	z-index:99;
+	cursor:pointer;
+}
+
+.pre{
+	left:0;
+}
+
+.next{
+	right:0;
+}
+
+.image_nav{
+	width:100%;
+	height:11px;
+	bottom:12%;
+	position:absolute;
+	text-align:center;
+	z-index:99;
+}
+
+.dots{
+	top: -5px;
+	width:18px;
+	height:18px;
+	margin:0 4px;
+	position:relative;
+	border-radius:50%;
+	display:inline-block;
+	background: rgba(0,0,0,.6);	
+}
+
+.slide_img{
+	z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five,
+#i6:checked ~ #six{
+	z-index:9;
+}
+
+#i1:checked ~ .image_nav #dot1,
+#i2:checked ~ .image_nav #dot2,
+#i3:checked ~ .image_nav #dot3,
+#i4:checked ~ .image_nav #dot4,
+#i5:checked ~ .image_nav #dot5,
+#i6:checked ~ .image_nav #dot6{
+	background:#fff;
+}
+
+footer{
+	clear:both;
+	background-color:#17252A;
+	color:#fff;
+	padding:5px 20px;
+	text-align:center;
+	margin-top:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+
