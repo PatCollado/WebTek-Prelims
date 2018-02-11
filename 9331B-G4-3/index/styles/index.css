@@ -1,20 +1,21 @@
 body {
-	background-color: #D7DBDD;
 	margin-left: auto;
 	margin-right: auto;
-	width: 95%;
-	height: 100%;
+	width: 70%;
+    
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 	
 }
 
 #header {
-	background-image: url(../images/1.jpg);
+	background-image: url(../images/HEADER.png);
     height: 80%;
     width: 100%
     background-repeat: no-repeat;
-    background-size: cover;
-	font-size: 30px;
-	text-align: center;
+    max-height: 1000px;
+	font-size: 0px;
 }
 
 
@@ -60,7 +61,6 @@ li a:hover {
 #par1 {
 	padding: 10px;
 	font-size: 25px;
-	background-color: #74898b;
 	border-radius: 3px;
 	text-align: left;
 }
@@ -69,7 +69,6 @@ li a:hover {
 #par2 {
 	padding: 10px;
 	font-size: 20px;
-	background-color: #74898b;
 	border-radius: 3px;
 	text-align: center;
 }
@@ -78,14 +77,12 @@ li a:hover {
 #par3 {
 	padding: 10px;
 	font-size: 25px;
-	background-color: #74898b;
 	border-radius: 3px;
 }
 
 #par4 {
 	padding: 10px;
 	font-size: 20px;
-	background-color: #74898b;
 	border-radius: 3px;
 	text-align: center;
 }
@@ -93,6 +90,5 @@ li a:hover {
 #par5 {
 	padding: 10px;
 	font-size: 25px;
-	background-color: #74898b;
 	border-radius: 3px;
 }

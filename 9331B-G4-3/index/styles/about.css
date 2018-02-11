@@ -4,6 +4,13 @@ body {
 	margin-right: auto;
 	width: 95%;
 	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+    
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 	
 }
 
@@ -15,6 +22,12 @@ body {
     background-size: cover;
 	font-size: 30px;
 	text-align: center;
+	background-image: url(../images/HEADER.png);
+    height: 80%;
+    width: 100%
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	font-size: 0px;
 }
 
 
@@ -23,7 +36,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #74898b;
+    background-color: #34495E;
 }
 
 li {
@@ -68,3 +81,4 @@ li a:hover {
 	background-color: #74898b;
 }
 
+}
