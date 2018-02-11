@@ -63,8 +63,22 @@ li a:hover {
 }
 
 
-#interview {
-	padding: 10px;
+#img1 {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 500px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+#img2 {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 500px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 [id='#vision']{
@@ -75,10 +89,18 @@ li a:hover {
     padding: 10px;
 }
 
+#imgPar {
+    background-color: #8b5f65;
+}
+
 #core{
-    padding: 10px;
+    background-color: #8b5f65;
+    width: 100%;
+    height: 50%;
 }
 
 #off{
-    padding: 10px;
+    background-color: #8b5f65;
+    width: 100%;
+    height: 50%;
 }

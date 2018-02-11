@@ -60,7 +60,7 @@ li a:hover {
 
 
 #contact {
-	background-color: #34495E;
+	background-color: #8b5f65;
 	background-position: center;
 	font-size: 18px;
 	height: 30%;
@@ -127,8 +127,8 @@ img {
 
 #devPar {
     border: 1px solid #000000;
-    background-color: #8b5f65;
-    width: 300px;
+    background-color: #34495E;
+    width: 98%;
     float: left;
     margin: 3px;
     padding: 5px;

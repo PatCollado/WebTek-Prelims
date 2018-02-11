@@ -58,98 +58,114 @@ li a:hover {
   cursor: default;
 }
 
+img {
+	width: inherit;
+}
+
 #image1 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image2 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image3 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image4 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image5 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image6 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image7 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image8 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image9 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image10 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image11 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 #image13 {
-	padding: 10px;
-	position: center;
-	font-size: 15px;
-	text-align: center;
-	border-radius: 3px;
+	border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }

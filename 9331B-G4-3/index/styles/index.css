@@ -59,6 +59,28 @@ li a:hover {
   cursor: default;
 }
 
+img {
+    width: inherit;
+}
+
+#pic1 {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+#pic2 {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
 #enviTitle{
     padding-left: 10px;
 }
@@ -75,9 +97,9 @@ li a:hover {
 #par2 {
 	padding: 10px;
     font-family: verdana;
-	font-size: 14px;
+	font-size: 17px;
 	border-radius: 3px;
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -86,14 +108,15 @@ li a:hover {
     font-family: verdana;
 	font-size: 17px;
 	border-radius: 3px;
+    text-align: left;
 }
 
 #par4 {
 	padding: 10px;
     font-family: verdana;
-	font-size: 14px;
+	font-size: 17px;
 	border-radius: 3px;
-	text-align: center;
+	text-align: left;
 }
 
 #par5 {
