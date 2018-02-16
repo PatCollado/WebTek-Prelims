@@ -2,7 +2,7 @@ body {
 	padding: 25px;
 	margin: 0;
 	width: 96%;
-	background-color: #5d6e6f;
+	background-color: #668B8B;
 
 }
 
@@ -10,6 +10,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+   border-radius: 10px;
     overflow: hidden;
     background-color: #aa5355;
 }
