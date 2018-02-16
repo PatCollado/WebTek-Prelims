@@ -50,8 +50,8 @@ li a:hover {
 
 body {
 	margin: 0;
-	padding: 25px;
 	width: 96%;
+	padding: 25px;
 	background-color: #668B8B;
 }
 
@@ -65,6 +65,7 @@ h1 {
 
 div#gallery {
 	overflow: hidden;
+	height: 800px;
 }
 
 div#gallery figure img {
@@ -75,10 +76,10 @@ div#gallery figure img {
 div#gallery figure {
 	position: relative;
 	width: 500%;
-	height: 200px;
 	margin: 0;
 	left: 0;
 	text-align: left;
 	font-size: 0;
-	animation: 30s slider infinite;
+	animation: 20s slider infinite;
 }
+

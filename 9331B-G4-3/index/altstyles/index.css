@@ -2,7 +2,7 @@ body {
 	padding: 25px;
 	margin: 0;
 	width: 96%;
-	background-color: #668B8B;
+	background-color: #708090;
 
 }
 
@@ -10,21 +10,19 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-   border-radius: 10px;
     overflow: hidden;
     background-color: #aa5355;
 }
 
 li {
-    
     font-family: Calibri;
     font-size: 25px;
     line-height: 30px;
-    border-bottom: 1px solid #888
+    border-bottom: 1px solid #FFEFDB
+
 }
 
 li a {
-	border-radius: 10px;
     float: left;
     display: block;
     color: white;
@@ -36,19 +34,43 @@ li a {
 }
  
 li a:hover {
-  background-color: #5d6e6f;
+  background-color: #EEE5DE;
 }
 
 .active {
-  background-color:  #5d6e6f;
+  background-color:  #8B8989;
   
   cursor: default;
 }
 
-h1 {
-  font-size: 72px;
+
+@font-face {
+  font-family: Yonky-Black-demoFFP;
+  src: url(fonts/Yonky-Black-demoFFP.ttf);
+}
+
+@font-face {
+  font-family: Azedo-Bold;
+  src: url(fonts/Azedo-Bold.otf);
+}
+/**
+h1#BakHed {
+  font-size: 92px;
+  font-family: Azedo-Bold;
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+p#BagHed {
+  font-size: 42px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+*/
+
+#par1 {
+  font-family: Azedo-Bold;
+}
