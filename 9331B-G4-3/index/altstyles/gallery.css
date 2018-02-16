@@ -50,7 +50,17 @@ li a:hover {
 
 body {
 	margin: 0;
+	padding: 25px;
+	width: 96%;
 }
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 div#gallery {
 	overflow: hidden;
@@ -64,6 +74,7 @@ div#gallery figure img {
 div#gallery figure {
 	position: relative;
 	width: 500%;
+	height: 200px;
 	margin: 0;
 	left: 0;
 	text-align: left;
