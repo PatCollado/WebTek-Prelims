@@ -2,7 +2,7 @@ body {
 	padding: 25px;
 	margin: 0;
 	width: 96%;
-	background-color: #668B8B;
+	background-color: #dde2bc;
 
 }
 
@@ -11,7 +11,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #aa5355;
+    background-color: #c1bce2;
 }
 
 li {
@@ -42,11 +42,4 @@ li a:hover {
   background-color:  #5d6e6f;
   
   cursor: default;
-}
-
-h1 {
-  font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
