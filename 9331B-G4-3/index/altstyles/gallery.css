@@ -1,38 +1,51 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #aa5355;
+body {
+  font-size: 28px;
+  padding-left: 15%;
+  background-color: #5D1200;
+  color: #EEEEEE;
+
 }
 
-li {
-    
-    font-family: Calibri;
-    font-size: 25px;
-    line-height: 30px;
-    border-bottom: 1px solid #888
+@media screen and (max-height: 400px) {
+  #nav {
+    margin: 0px;
+    padding-top: 15px;
+  }
+  #nav a {
+    margin: 0px;
+    font-size: 18px
+  }
 }
 
-li a {
-	border-radius: 10px;
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 20px;
+
+#nav {
+    margin: 0px;
+    height: 120%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#nav a {
+    margin: 0px;
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
-    transition: .3s background-color;
-    
+    font-size: 25px;
+    color: #818181;
+    display: block;
 }
  
-li a:hover {
-  background-color: #5d6e6f;
+#nav a:hover {
+  color: #f1f1f1;
 }
 
 .active {
   background-color:  #5d6e6f;
-  
   cursor: default;
 }
 
@@ -47,14 +60,6 @@ li a:hover {
 	95% { left: -300%; }
 	100% { left: -400%; }
 }
-
-body {
-	margin: 0;
-	width: 96%;
-	padding: 25px;
-	background-color: #668B8B;
-}
-
 
 div#gallery {
 	overflow: hidden;

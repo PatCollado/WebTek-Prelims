@@ -1,45 +1,51 @@
 body {
-	padding: 25px;
-	margin: 0;
-	width: 96%;
-	background-color: #708090;
+  font-size: 28px;
+  padding-left: 15%;
+  background-color: #5D1200;
+  color: #EEEEEE;
 
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #aa5355;
+@media screen and (max-height: 400px) {
+  #nav {
+    margin: 0px;
+    padding-top: 15px;
+  }
+  #nav a {
+    margin: 0px;
+    font-size: 18px
+  }
 }
 
-li {
-    font-family: Calibri;
-    font-size: 25px;
-    line-height: 30px;
-    border-bottom: 1px solid #FFEFDB
 
+#nav {
+    margin: 0px;
+    height: 120%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-li a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 20px;
+#nav a {
+    margin: 0px;
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
-    transition: .3s background-color;
-    
+    font-size: 25px;
+    color: #818181;
+    display: block;
 }
  
-li a:hover {
-  background-color: #EEE5DE;
+#nav a:hover {
+  color: #f1f1f1;
 }
 
 .active {
-  background-color:  #8B8989;
-  
+  background-color:  #5d6e6f;
   cursor: default;
 }
 
@@ -53,23 +59,23 @@ li a:hover {
   font-family: Azedo-Bold;
   src: url(fonts/Azedo-Bold.otf);
 }
-/**
+
+@font-face {
+  font-family: Stika-Font;
+  src: url(fonts/Stika-Font.otf);
+}
+
 h1#BakHed {
   font-size: 92px;
-  font-family: Azedo-Bold;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-family: Stika-Font;
+  text-align: center;
 }
 
 p#BagHed {
   font-size: 42px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
-*/
+
 
 #par1 {
   font-family: Azedo-Bold;
