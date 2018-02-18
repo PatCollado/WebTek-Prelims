@@ -1,14 +1,15 @@
 body {
   font-size: 28px;
   padding-left: 15%;
-  background-color: #5D1200;
-  color: #EEEEEE;
+  background-color: #efefef;
+  width: 83%;
 
 }
 
+
 @media screen and (max-height: 400px) {
   #nav {
-    margin: 0px;
+    margin: px;
     padding-top: 15px;
   }
   #nav a {
@@ -20,23 +21,29 @@ body {
 
 #nav {
     margin: 0px;
-    height: 120%;
+    height: 100%;
     width: 160px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #222222;
+    background-color: #e37222;
     overflow-x: hidden;
     padding-top: 20px;
 }
 
+ul{
+    list-style-type:none; 
+}
+
 #nav a {
-    margin: 0px;
+    margin-left: -50px;
+    margin-bottom: 18px;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 27px;
+    font-family: OpenSans;
+    color: white;
     display: block;
 }
  
@@ -45,6 +52,43 @@ body {
 }
 
 .active {
-  background-color:  #5d6e6f;
+  background-color:  #07889B;
   cursor: default;
+}
+
+h1#BakHed {
+  font-size: 92px;
+  font-family: Lavi;
+  text-align: center;
+  line-height: 1000px;
+  margin-bottom: -30%;
+}
+
+p#BagHed {
+  font-size: 42px;
+  text-align: center;
+  font-family: OpenSans;
+}
+
+#header{
+    background-image: url(../altstyles/images/header.JPG);
+    width: 100%;
+    height: 100%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5%;
+    color: white;
+}
+
+@font-face {
+  font-family: Lavi;
+  src: url(fonts/Lavi.ttf);
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(fonts/OpenSans-Bold.ttf);
 }
