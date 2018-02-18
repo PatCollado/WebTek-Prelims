@@ -1,0 +1,327 @@
+article, aside, footer, header, main, nav, section{
+	display:block;
+}
+
+*{margin: 0; padding: 0; border: 0 none;}
+
+body{
+	width: 100%;
+	height:100%;
+	background:#F2EEE2;
+	margin: 0px;
+}
+
+.banner{
+	width: 100%;
+	height: 100%;
+}
+
+nav{
+	opacity:0.7;
+	position:fixed;
+	width:100%;
+	background:#FA7C92;
+	text-align:center;
+	font-family: cursive;
+}
+nav ul{
+	padding:5px;
+	list-style:none;
+	color:#FFFFFF;
+	margin: auto;
+	display:inline-block;
+}
+nav ul li a{
+	text-decoration:none;
+	coLor:#FFFFFF;
+	display:block;
+}
+nav ul li{
+	float:left;
+	background:#FA7C92;
+	width:300px;
+	height:70px;	
+	line-height:70px;
+	text-align:center;
+	font-size:25px;
+	font-variant: small-caps;
+	cursor:pointer;
+	display:inline-block;
+}
+
+nav ul li a:hover{
+	background:#FFFFFF;
+	transition:all 0.80s;
+	color:#000;	
+}
+nav ul li ul li{
+	display:none;
+	padding:5px;
+}
+nav ul li:hover ul li{
+	display:block;
+	color:#dddd;
+}
+
+section{
+	background-color:#F5F3EE;
+	height:100%;
+	color:#331a00;
+	padding:10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align:center;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+	font-size: 18px; 
+	line-height:35px;
+}
+
+main{
+	width:70%;
+	float:right;
+	height:100%;
+	background-color:#66AB8C;
+	font-family: Harley Script;
+	font-size: 20px;
+	border: 6px solid #FFFFFF;
+	margin-bottom:20px;
+	margin-top:25px;
+}
+
+aside{
+	height:100%;
+	width:20%;
+	float:right;
+	padding:10px;
+	margin-top:60px;
+	margin-right: 40px;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+    font-size: 30px;
+	letter-spacing: .2em;
+	line-height: 1.1em;
+	text-align: center;
+	text-transform: uppercase;
+	color:#FFFFFF;
+    margin: 25px;
+    background: url(image/denim-background-83773__340.jpg) 50% 50% repeat-x;
+	background-size:cover;
+	border: 5px dashed #FA7C92;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 0 4px #333333, 2px 1px 4px 4px rgba(10,10,0,.5);
+    -webkit-box-shadow: 0 0 0 4px #333333, 2px 1px 4px 4px rgba(10,10,0,.5);
+    box-shadow: 0 0 0 4px #333333, 2px 1px 6px 4px rgba(10,10,0,.5);
+}
+
+
+aside:hover{
+	 -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+h2{
+  font-size:80px;
+  color: #66AB8C;
+  font:cursive;
+  text-align:center;
+  line-height:100px;
+  text-shadow: -1px 0 0 #FFFFFF, 1px 1px 0 #FFFFFF,
+             2px -1px 0 #FFFFFF, 3px 0 0 #FFFFFF;
+}
+
+.VisionHeader{
+  color: #66AB8C;
+  font-size: 3em;
+  letter-spacing: -3px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-shadow: -1px 0 0 #FFFFFF, 1px 1px 0 #FFFFFF,
+             2px -1px 0 #FFFFFF, 3px 0 0 #FFFFFF;
+  text-align:center;
+  line-height:80px;
+}
+
+
+#PurposeHeading{
+	font-size: 50px;
+	text-shadow: -1px 0 0 #FFFFFF, 1px 1px 0 #FFFFFF,
+             2px -1px 0 #FFFFFF, 3px 0 0 #FFFFFF;
+	color: #66AB8C;		 
+}
+
+#AboutVision{
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	color:#331a00;
+	background-color:#F5F3EE;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+	padding:5px;
+	line-height:35px;
+	text-align:Center;
+}
+
+.MissionHeader{
+  font-size: 3em;
+  padding:5px;
+  color: #66AB8C;
+  letter-spacing: -3px;
+  font-weight: 200;
+  line-height:80px;
+  text-transform: uppercase;
+  text-align:center;
+ text-shadow: -1px 0 0 #FFFFFF, 1px 1px 0 #FFFFFF,
+             2px -1px 0 #FFFFFF, 3px 0 0 #FFFFFF;
+
+}
+
+#AboutMission{
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	color:#331a00;
+	background-color:#F5F3EE;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+	line-height:35px;
+	text-align:Center;
+}
+
+.tab{
+	text-indent: 50px;
+	font-size: 20px;
+	color: #331a00;
+	line-height:35px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+}
+.NewsTitle{
+	font-size: 30px;
+	font-family:cursive;
+	padding: 10px;
+	color:#000;
+}
+
+.NewsArticle{
+	border: dashed 5px #6Ec4DB;
+	margin-top:10px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+}
+
+footer{
+	clear:both;
+	background-color:#6Ec4DB;
+	color:#331a00;
+	padding:5px 20px;
+	text-align:center;
+	margin-top:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+}
+
+
+#ContactArticle{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+}
+
+.Gallery{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	position:relative;
+	width:auto;
+	height:150px;
+	padding-bottom:40%;
+	background:#4c4c4c;
+	border:solid 10px #F5F3EE;
+}
+
+.slide_img{
+	position:absolute;
+	width:100%;
+	height:100%;	
+}
+
+.slide_img img{
+	width:100%;
+	height:100%;
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6{
+	display:none;
+}
+
+.pre, .next{
+	width:10%;
+	height:100%;
+	position:absolute;
+	top:0;
+	background: rgba(88,88,88,.4);
+	z-index:99;
+	cursor:pointer;
+}
+
+.pre{
+	left:0;
+}
+
+.next{
+	right:0;
+}
+
+.image_nav{
+	width:100%;
+	height:11px;
+	bottom:12%;
+	position:absolute;
+	text-align:center;
+	z-index:99;
+}
+
+.dots{
+	top: -5px;
+	width:18px;
+	height:18px;
+	margin:0 4px;
+	position:relative;
+	border-radius:50%;
+	display:inline-block;
+	background: rgba(0,0,0,.6);	
+}
+
+.slide_img{
+	z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five,
+#i6:checked ~ #six{
+	z-index:9;
+}
+
+#i1:checked ~ .image_nav #dot1,
+#i2:checked ~ .image_nav #dot2,
+#i3:checked ~ .image_nav #dot3,
+#i4:checked ~ .image_nav #dot4,
+#i5:checked ~ .image_nav #dot5,
+#i6:checked ~ .image_nav #dot6{
+	background:#fff;
+}
+
+
+
+
+
+
+
+
+
