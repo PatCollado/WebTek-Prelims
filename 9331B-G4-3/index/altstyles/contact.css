@@ -3,7 +3,7 @@ body {
   padding-left: 15%;
   background-color: #efefef;
   width: 83%;
-
+  height: 1000px;
 }
 
 
@@ -86,7 +86,7 @@ p#BagHed {
 .con{
     background-color: #07889B;
     color: white;
-}
+  }
 
 #offhed{
     background-color: #66b9bf;
@@ -114,6 +114,8 @@ p#BagHed {
 
 #developers{
     text-align: center;
+    height: 1200px;
+    padding: 110px;
 }
 @font-face {
   font-family: Lavi;
@@ -123,4 +125,80 @@ p#BagHed {
 @font-face {
   font-family: OpenSans;
   src: url(fonts/OpenSans-Bold.ttf);
+}
+
+img {
+    width: inherit;
+}
+
+#mitch {
+    border: 1px solid #000000;
+    background-color: #99250b;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: center;
+}
+
+#patrick {
+    border: 1px solid #000000;
+    background-color: #99250b;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: center;
+}
+
+#jelly {
+    border: 1px solid #000000;
+    background-color: #99250b;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: center;
+}
+
+#nikki {
+    border: 1px solid #000000;
+    background-color: #99250b;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: center;
+}
+
+#lingling {
+    border: 1px solid #000000;
+    background-color: #99250b;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: center;
+}
+
+#stefanie {
+    border: 1px solid #000000;
+    background-color: #99250b;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: center;
 }

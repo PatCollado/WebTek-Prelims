@@ -136,26 +136,21 @@ h3{
     background-color: #66b9bf;
 }
 
-img {
-  width: 700px;
-}
 
 #img1 {
     border: 1px solid #000000;
-    background-color: #8b5f65;
-    width: 98%;
-    float: left;
-    margin: 5px;
-    padding: 5px;
+    background-color: #99250b;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
 }
 
 #img2 {
     border: 1px solid #000000;
-    background-color: #8b5f65;
-    width: 98%;
-    float: left;
-    margin: 5px;
-    padding: 5px;
+    background-color: #99250b;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
 }
 
 #core{
@@ -181,3 +176,4 @@ img {
   font-family: OpenSans;
   src: url(fonts/OpenSans-Bold.ttf);
 }
+
