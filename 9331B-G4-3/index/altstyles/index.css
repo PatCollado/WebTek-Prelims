@@ -56,13 +56,11 @@ ul{
 }
 
 
-
-
 h1#BakHed {
   font-size: 92px;
   font-family: Lavi;
-  text-align: left;
-  line-height: 100px;
+  text-align: center;
+  line-height: 150px;
   margin-bottom: -30%;
 }
 
@@ -70,6 +68,7 @@ p#BagHed {
   font-size: 42px;
   text-align: center;
   font-family: OpenSans;
+  line-height: 700px;
 }
 
 #header{
