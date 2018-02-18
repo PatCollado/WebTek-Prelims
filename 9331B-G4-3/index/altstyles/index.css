@@ -61,8 +61,8 @@ ul{
 h1#BakHed {
   font-size: 92px;
   font-family: Lavi;
-  text-align: center;
-  line-height: 1000px;
+  text-align: left;
+  line-height: 100px;
   margin-bottom: -30%;
 }
 
@@ -135,6 +135,28 @@ p#BagHed {
     text-align: center;
     font-family: verdana;
     font-size: 20px;
+}
+
+img {
+    width: inherit;
+}
+
+#pic1 {
+    border: 1px solid #000000;
+    background-color: #ec6672;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+#pic2 {
+    border: 1px solid #000000;
+    background-color: #ec6672;
+    width: 98%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
 }
 
 @font-face {

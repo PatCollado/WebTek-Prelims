@@ -59,8 +59,8 @@ ul{
 h1#BakHed {
   font-size: 92px;
   font-family: Lavi;
-  text-align: center;
-  line-height: 1000px;
+  text-align: left;
+  line-height: 100px;
   margin-bottom: -30%;
 }
 
@@ -135,8 +135,27 @@ h3{
     font-size: 13px;
     background-color: #66b9bf;
 }
-#img1{
-    height: 0px;
+
+img {
+  width: 700px;
+}
+
+#img1 {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+#img2 {
+    border: 1px solid #000000;
+    background-color: #8b5f65;
+    width: 98%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
 }
 
 #core{
