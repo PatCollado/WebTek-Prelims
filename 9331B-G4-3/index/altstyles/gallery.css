@@ -81,3 +81,17 @@ div#gallery figure {
 	animation: 20s slider infinite;
 }
 
+@font-face {
+  font-family: Stika-Font;
+  src: url(fonts/Stika-Font.otf);
+}
+
+h1#BakHed {
+  background-image: url("../images/background2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px;
+  font-size: 72px;
+  font-family: Stika-Font;
+  text-align: left;
+}

@@ -66,9 +66,13 @@ body {
 }
 
 h1#BakHed {
-  font-size: 92px;
+  background-image: url("../images/background2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px;
+  font-size: 72px;
   font-family: Stika-Font;
-  text-align: center;
+  text-align: left;
 }
 
 p#BagHed {
