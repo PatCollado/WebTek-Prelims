@@ -9,6 +9,7 @@ body{
 	height:100%;
 	background:#F2EEE2;
 	margin: 0px;
+
 }
 
 .banner{
@@ -17,12 +18,13 @@ body{
 }
 
 nav{
-	opacity:0.7;
+	opacity:0.6;
 	position:fixed;
 	width:100%;
 	background:#FA7C92;
 	text-align:center;
 	font-family: cursive;
+	background-image:url('image/9659b7f6d4f1e2f.jpg')
 }
 nav ul{
 	padding:5px;
@@ -47,6 +49,7 @@ nav ul li{
 	font-variant: small-caps;
 	cursor:pointer;
 	display:inline-block;
+	opacity:0.8;
 }
 
 nav ul li a:hover{
@@ -73,7 +76,7 @@ section{
 	margin-left: 10px;
 	margin-right: 10px;
 	text-align:center;
-	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+	font-family: Lucidatypewriter, monospace; 
 	font-size: 18px; 
 	line-height:35px;
 }
@@ -104,9 +107,9 @@ aside{
 	line-height: 1.1em;
 	text-align: center;
 	text-transform: uppercase;
-	color:#FFFFFF;
+	color:black;
     margin: 25px;
-    background: url(image/denim-background-83773__340.jpg) 50% 50% repeat-x;
+    background: url(image/9659b7f6d4f1e2f.jpg) 50% 50% repeat-x;
 	background-size:cover;
 	border: 5px dashed #FA7C92;
     -moz-border-radius: 5px;
@@ -123,14 +126,34 @@ aside:hover{
         -ms-transform: scale(1.3);
         transform: scale(1.3);
 }
-h2{
-  font-size:80px;
+h2, .VisionHeader, .MissionHeader{
+  font-family:Parkavenue, cursive;
+  font-size:50px;
   color: #66AB8C;
-  font:cursive;
   text-align:center;
   line-height:100px;
   text-shadow: -1px 0 0 #FFFFFF, 1px 1px 0 #FFFFFF,
              2px -1px 0 #FFFFFF, 3px 0 0 #FFFFFF;
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #FA7C92; }
+}
 }
 
 .VisionHeader{
@@ -167,16 +190,15 @@ h2{
 }
 
 .MissionHeader{
-  font-size: 3em;
-  padding:5px;
   color: #66AB8C;
+  font-size: 3em;
   letter-spacing: -3px;
   font-weight: 200;
-  line-height:80px;
   text-transform: uppercase;
-  text-align:center;
- text-shadow: -1px 0 0 #FFFFFF, 1px 1px 0 #FFFFFF,
+  text-shadow: -1px 0 0 #FFFFFF, 1px 1px 0 #FFFFFF,
              2px -1px 0 #FFFFFF, 3px 0 0 #FFFFFF;
+  text-align:center;
+  line-height:80px;
 
 }
 
@@ -215,7 +237,7 @@ h2{
 footer{
 	clear:both;
 	background-color:#6Ec4DB;
-	color:#331a00;
+	color:#FFFFFF;
 	padding:5px 20px;
 	text-align:center;
 	margin-top:20px;
