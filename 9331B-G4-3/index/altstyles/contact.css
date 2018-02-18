@@ -83,6 +83,38 @@ p#BagHed {
     color: white;
 }
 
+.con{
+    background-color: #07889B;
+    color: white;
+}
+
+#offhed{
+    background-color: #66b9bf;
+    font-size: 40px;;
+    line-height: 76px;
+    text-align: center;
+    height: 8%;
+    font-family: OpenSans;
+}
+
+#tel{
+    margin-top:-10px;
+    text-align: center;    
+}
+
+#barhed{
+    margin-top: -50px;
+    text-align: center;    
+}
+
+#num{
+    margin-top: -20px;
+    text-align: center;
+}
+
+#developers{
+    text-align: center;
+}
 @font-face {
   font-family: Lavi;
   src: url(fonts/Lavi.ttf);
